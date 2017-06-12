@@ -14,7 +14,7 @@ body{
 	background-color: transparent;
 	border-bottom: none;
 	margin-bottom: 0;
-	background-image: url(../img/portada.jpg);
+	background-image: url(../assets/img/portada.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -85,10 +85,18 @@ body{
 	color: #41521F;
 }
 
+.btn-info{
+	background-color: #41521F;
+	border: none; 
+}
+
+.btn-info:hover{
+	background-color: #829B51;
+}
 
 /* Seccion 4 */
 .section-4{
-	background-image: url(../img/all.jpg);
+	background-image: url(../assets/img/all.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -187,4 +195,30 @@ footer a, footer h5{
 }
 footer ul{
 	list-style: none;
+}
+
+.carousel-mio{
+	background-color: #fff;
+}
+#modals, #modalss, #donarID{
+	border: none;
+	font-weight: 400;
+}
+#donarID{
+	font-size: 18px;
+}
+.btn-info:focus{
+	background-color: #41521F; /*verde más oscuro*/
+	border: none;
+	font-size: 14px;
+}
+.btn-info:hover{
+	border: none;
+}
+
+#solicitud{
+	background-color: #41521F; /*verde más oscuro*/
+	padding: 15px;
+	margin: 5px;
+	color: #fff;
 }
